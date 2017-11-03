@@ -100,14 +100,20 @@ describe("About Applying What We Have Learnt", function() {
   /* UNCOMMENT FOR EXTRA CREDIT */
   /*
   it("should find the largest prime factor of a composite number", function () {
-  
+	//
+  	expect(largestPrimeFactor().toBe())
   });
 
   it("should find the largest palindrome made from the product of two 3 digit numbers", function () {
-    
+    //start with 999*999 
+    	//nested loop to count each one down
+    //check if it's a palindrome (reverse === forward)
+    //if it's larger than the current stored value, replace that stored value
   });
 
   it("should find the smallest number divisible by each of the numbers 1 to 20", function () {
+  	//count up from 20
+  	//loop and use reduce - must be true for values 1-20
       
     
   });
@@ -117,6 +123,12 @@ describe("About Applying What We Have Learnt", function() {
   });
 
   it("should find the 10001st prime", function () {
+  	//check if its prime
+  		// 
+  	//for each prime
+  		//replace stored value
+  		//increment count
+  	//return after count === 10001 	
 
   });
   */
